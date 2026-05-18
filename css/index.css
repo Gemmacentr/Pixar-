@@ -129,3 +129,24 @@ div.button {
   border: 1px solid yellowgreen;
   color: rgb(59, 87, 5);
 }
+
+@media (max-width: 1200px) {
+  .Navbar-navigation > .Navbar-item {
+    display: none;
+  }
+  div.Main-content {
+    width: 100%;
+    padding: 20px;
+  }
+  div.Content {
+    flex-flow: column nowrap;
+    gap: 20px;
+  }
+  div.Content-item {
+    width: 30%;
+  }
+  .Footer-children {
+    display: flex;
+    flex-direction: column;
+  }
+}
